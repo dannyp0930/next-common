@@ -1,6 +1,10 @@
-module.exports = {
-  swcMinify: false,
-  experimental: {
-      appDir: true,
-  },
+const withPWA = require("next-pwa");
+
+const nextConfig = {
+  reactStrictMode: true,
 };
+
+module.exports = withPWA({
+  dest: "public"
+}
+)(nextConfig);

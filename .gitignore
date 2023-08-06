@@ -72,4 +72,6 @@ sketch
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/nextjs,react,visualstudiocode
+# service-worker
+public/sw.js
+public/workbox-*.js
